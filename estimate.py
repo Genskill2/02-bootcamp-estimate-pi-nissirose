@@ -16,7 +16,8 @@ class TestWallis(unittest.TestCase):
 class TestMC(unittest.TestCase):
     def test_randomness(self):
         pi0 = monte_carlo(15000)
-        pi1 = monte_carlo(15000)  self.assertNotEqual(pi0, pi1, "Two different estimates for PI are exactly the same. This is almost impossible.")
+        pi1 = monte_carlo(15000) 
+        self.assertNotEqual(pi0, pi1, "Two different estimates for PI are exactly the same. This is almost impossible.")
 
         self.assertFalse(abs(pi0 - pi1) > 0.05, "Two different estimates of PI are too different. This should not happen")
 
