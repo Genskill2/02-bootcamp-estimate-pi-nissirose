@@ -29,7 +29,8 @@ class TestMC(unittest.TestCase):
         
     
 if __name__ == "__main__":
-    unittest.main()import math
+    unittest.main()
+    import math
 import unittest
 import random
 class TestWallis(unittest.TestCase):
