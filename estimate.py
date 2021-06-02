@@ -1,7 +1,4 @@
-
-
-
-    import math
+import math
 import unittest
 import random
 class TestWallis(unittest.TestCase):
